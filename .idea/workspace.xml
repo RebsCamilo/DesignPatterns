@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a347d69-8b6d-46c4-b08b-f8fa9c82c140" name="Changes" comment="Factory Method" />
+    <list default="true" id="2a347d69-8b6d-46c4-b08b-f8fa9c82c140" name="Changes" comment="workspace updates">
+      <change afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/AbstractFactory/DriverAbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/Singleton/DriverSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/Singleton/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreationalDesignPattern/FactoryMethod/DriverFactoryMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/FactoryMethod/DriverFactoryMethod.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,22 +36,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="CreationalDesignPattern.FactoryMethod" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.DriverSingleton">
     <configuration name="DriverFactoryMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CreationalDesignPattern.FactoryMethod.DriverFactoryMethod" />
       <module name="DesignPatterns" />
@@ -59,8 +65,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DriverSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CreationalDesignPattern.Singleton.DriverSingleton" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CreationalDesignPattern.Singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DriverSingleton" />
         <item itemvalue="Application.DriverFactoryMethod" />
       </list>
     </recent_temporary>
@@ -81,7 +101,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669399441912</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Factory Method">
+      <created>1669399551133</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669399551133</updated>
+    </task>
+    <task id="LOCAL-00003" summary="workspace updates">
+      <created>1669399779026</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669399779026</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,6 +131,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Factory Method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Factory Method" />
+    <MESSAGE value="workspace updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace updates" />
   </component>
 </project>
