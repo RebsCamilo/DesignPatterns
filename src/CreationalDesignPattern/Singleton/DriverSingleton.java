@@ -7,9 +7,18 @@ um ponto de acesso global para essa instância.
 
 public class DriverSingleton { //thread única
 	public static void main(String[] args) {
-		Singleton singleton = Singleton.getInstance("TESTE 1");
-		Singleton singleton2 = Singleton.getInstance("TESTE 2");
-        System.out.println(singleton.value);
-        System.out.println(singleton2.value);
+//		DatabaseSingleton singleton = DatabaseSingleton.getInstance("TESTE 1");
+//		DatabaseSingleton singleton2 = DatabaseSingleton.getInstance("TESTE 2");
+//        System.out.println(singleton.value);
+//        System.out.println(singleton2.value);
+		
+		DatabaseSingleton singleton = DatabaseSingleton.getInstance();
+		DatabaseSingleton singleton2 = DatabaseSingleton.getInstance();
+		
+		singleton.add("Ana");
+		singleton2.add("Maria");
+		singleton2.add("Raquel");
+		
+		singleton.show();
 	}
 }

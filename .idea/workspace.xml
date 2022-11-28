@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a347d69-8b6d-46c4-b08b-f8fa9c82c140" name="Changes" comment="workspace updates">
-      <change afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/AbstractFactory/DriverAbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/Singleton/DriverSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/Singleton/Singleton.java" afterDir="false" />
+    <list default="true" id="2a347d69-8b6d-46c4-b08b-f8fa9c82c140" name="Changes" comment="Singleton">
+      <change afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/Builder/DriverBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationalDesignPattern/FactoryMethod/DriverFactoryMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/FactoryMethod/DriverFactoryMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreationalDesignPattern/Singleton/DriverSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/Singleton/DriverSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreationalDesignPattern/Singleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/Singleton/DatabaseSingleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,20 @@
       <recent name="CreationalDesignPattern.FactoryMethod" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DriverSingleton">
+  <component name="RunManager" selected="Application.CreationalDesignPattern.Singleton.DriverSingleton">
+    <configuration name="CreationalDesignPattern.Singleton.DriverSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CreationalDesignPattern.Singleton.DriverSingleton" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CreationalDesignPattern.Singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DriverFactoryMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CreationalDesignPattern.FactoryMethod.DriverFactoryMethod" />
       <module name="DesignPatterns" />
@@ -65,22 +77,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DriverSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CreationalDesignPattern.Singleton.DriverSingleton" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CreationalDesignPattern.Singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DriverSingleton" />
+        <item itemvalue="Application.CreationalDesignPattern.Singleton.DriverSingleton" />
         <item itemvalue="Application.DriverFactoryMethod" />
       </list>
     </recent_temporary>
@@ -115,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669399779026</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Singleton">
+      <created>1669600520250</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669600520250</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,6 +138,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Factory Method" />
     <MESSAGE value="workspace updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace updates" />
+    <MESSAGE value="Singleton" />
+    <option name="LAST_COMMIT_MESSAGE" value="Singleton" />
   </component>
 </project>
