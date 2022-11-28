@@ -9,6 +9,21 @@ public class DriverBuilder {
 	
 	public static void main(String[] args) {
 	
+		Address address = Address.builder()
+		                         .street("Rua teste")
+		                         .city("Manaus")
+		                         .number(10)
+		                         .complement("apto 10");
+		System.out.println(address);
+		
+		Address addressByAddressBuilder = AddressBuilder.builder()
+		                                                .street("Rua teste 2")
+		                                                .city("João Pessoa")
+		                                                .number(20)
+		                                                .complement("apto 20")
+				                                        .build();
+		System.out.println(addressByAddressBuilder);
+		
 	}
 	
 }
