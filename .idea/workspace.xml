@@ -4,25 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a347d69-8b6d-46c4-b08b-f8fa9c82c140" name="Changes" comment="Builder">
-      <change afterPath="$PROJECT_DIR$/src/StructuralDesignPatterns/Adapter/BankCustomerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralDesignPatterns/Adapter/BankDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralDesignPatterns/Adapter/CreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralDesignPatterns/Adapter/DriverAdapter.java" afterDir="false" />
+    <list default="true" id="2a347d69-8b6d-46c4-b08b-f8fa9c82c140" name="Changes" comment="Adapter">
+      <change afterPath="$PROJECT_DIR$/src/StructuralDesignPatterns/Decorator/ComCalda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralDesignPatterns/Decorator/ComGotasDeChocolate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralDesignPatterns/Decorator/DriverDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralDesignPatterns/Decorator/SorteveSimples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralDesignPatterns/Decorator/Sorvete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralDesignPatterns/Decorator/SorveteDecorator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationalDesignPattern/AbstractFactory/DriverAbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPatterns/AbstractFactory/DriverAbstractFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationalDesignPattern/Builder/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPatterns/Builder/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationalDesignPattern/Builder/AddressBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPatterns/Builder/AddressBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationalDesignPattern/Builder/DriverBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPatterns/Builder/DriverBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationalDesignPattern/FactoryMethod/DriverFactoryMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPatterns/FactoryMethod/DriverFactoryMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationalDesignPattern/FactoryMethod/Logistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPatterns/FactoryMethod/Logistics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationalDesignPattern/FactoryMethod/RoadLogistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPatterns/FactoryMethod/RoadLogistics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationalDesignPattern/FactoryMethod/SeaLogistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPatterns/FactoryMethod/SeaLogistics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationalDesignPattern/FactoryMethod/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPatterns/FactoryMethod/Ship.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationalDesignPattern/FactoryMethod/Transport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPatterns/FactoryMethod/Transport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationalDesignPattern/FactoryMethod/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPatterns/FactoryMethod/Truck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationalDesignPattern/Singleton/DatabaseSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPatterns/Singleton/DatabaseSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationalDesignPattern/Singleton/DriverSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPatterns/Singleton/DriverSingleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +43,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rebeca.camilo/IdeaProjects/banhoetosaAPIgit&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
@@ -64,7 +54,7 @@
       <recent name="CreationalDesignPattern.FactoryMethod" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DriverAdapter">
+  <component name="RunManager" selected="Application.DriverDecorator">
     <configuration name="CreationalDesignPatterns.Singleton.DriverSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CreationalDesignPatterns.Singleton.DriverSingleton" />
       <module name="DesignPatterns" />
@@ -104,6 +94,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DriverDecorator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StructuralDesignPatterns.Decorator.DriverDecorator" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StructuralDesignPatterns.Decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DriverFactoryMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CreationalDesignPatterns.FactoryMethod.DriverFactoryMethod" />
       <module name="DesignPatterns" />
@@ -119,6 +122,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DriverDecorator" />
         <item itemvalue="Application.DriverAdapter" />
         <item itemvalue="Application.CreationalDesignPatterns.Singleton.DriverSingleton" />
       </list>
@@ -175,7 +179,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669675084762</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Rename Package CreationalDesignPatterns">
+      <created>1669734102684</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669734102684</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Adapter">
+      <created>1669734127312</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669734127312</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,6 +213,8 @@
     <MESSAGE value="Singleton" />
     <MESSAGE value="Alterações em Singleton" />
     <MESSAGE value="Builder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Builder" />
+    <MESSAGE value="Rename Package CreationalDesignPatterns" />
+    <MESSAGE value="Adapter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adapter" />
   </component>
 </project>
