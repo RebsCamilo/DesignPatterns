@@ -1,4 +1,4 @@
-package CreationalDesignPattern.Singleton;
+package CreationalDesignPatterns.Singleton;
 
 import java.util.ArrayList;
 import java.util.List;

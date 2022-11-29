@@ -4,11 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a347d69-8b6d-46c4-b08b-f8fa9c82c140" name="Changes" comment="Alterações em Singleton">
-      <change afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/Builder/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/Builder/AddressBuilder.java" afterDir="false" />
+    <list default="true" id="2a347d69-8b6d-46c4-b08b-f8fa9c82c140" name="Changes" comment="Builder">
+      <change afterPath="$PROJECT_DIR$/src/StructuralDesignPatterns/Adapter/BankCustomerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralDesignPatterns/Adapter/BankDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralDesignPatterns/Adapter/CreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralDesignPatterns/Adapter/DriverAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationalDesignPattern/Builder/DriverBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/Builder/DriverBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreationalDesignPattern/AbstractFactory/DriverAbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPatterns/AbstractFactory/DriverAbstractFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreationalDesignPattern/Builder/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPatterns/Builder/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreationalDesignPattern/Builder/AddressBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPatterns/Builder/AddressBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreationalDesignPattern/Builder/DriverBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPatterns/Builder/DriverBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreationalDesignPattern/FactoryMethod/DriverFactoryMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPatterns/FactoryMethod/DriverFactoryMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreationalDesignPattern/FactoryMethod/Logistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPatterns/FactoryMethod/Logistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreationalDesignPattern/FactoryMethod/RoadLogistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPatterns/FactoryMethod/RoadLogistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreationalDesignPattern/FactoryMethod/SeaLogistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPatterns/FactoryMethod/SeaLogistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreationalDesignPattern/FactoryMethod/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPatterns/FactoryMethod/Ship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreationalDesignPattern/FactoryMethod/Transport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPatterns/FactoryMethod/Transport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreationalDesignPattern/FactoryMethod/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPatterns/FactoryMethod/Truck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreationalDesignPattern/Singleton/DatabaseSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPatterns/Singleton/DatabaseSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreationalDesignPattern/Singleton/DriverSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPatterns/Singleton/DriverSingleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +64,26 @@
       <recent name="CreationalDesignPattern.FactoryMethod" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DriverBuilder">
-    <configuration name="CreationalDesignPattern.Singleton.DriverSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CreationalDesignPattern.Singleton.DriverSingleton" />
+  <component name="RunManager" selected="Application.DriverAdapter">
+    <configuration name="CreationalDesignPatterns.Singleton.DriverSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CreationalDesignPatterns.Singleton.DriverSingleton" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CreationalDesignPattern.Singleton.*" />
+          <option name="PATTERN" value="CreationalDesignPatterns.Singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DriverAdapter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StructuralDesignPatterns.Adapter.DriverAdapter" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StructuralDesignPatterns.Adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,11 +92,11 @@
       </method>
     </configuration>
     <configuration name="DriverBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CreationalDesignPattern.Builder.DriverBuilder" />
+      <option name="MAIN_CLASS_NAME" value="CreationalDesignPatterns.Builder.DriverBuilder" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CreationalDesignPattern.Builder.*" />
+          <option name="PATTERN" value="CreationalDesignPatterns.Builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,11 +105,11 @@
       </method>
     </configuration>
     <configuration name="DriverFactoryMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CreationalDesignPattern.FactoryMethod.DriverFactoryMethod" />
+      <option name="MAIN_CLASS_NAME" value="CreationalDesignPatterns.FactoryMethod.DriverFactoryMethod" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CreationalDesignPattern.FactoryMethod.*" />
+          <option name="PATTERN" value="CreationalDesignPatterns.FactoryMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,9 +119,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DriverBuilder" />
-        <item itemvalue="Application.CreationalDesignPattern.Singleton.DriverSingleton" />
-        <item itemvalue="Application.DriverFactoryMethod" />
+        <item itemvalue="Application.DriverAdapter" />
+        <item itemvalue="Application.CreationalDesignPatterns.Singleton.DriverSingleton" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669643028211</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Builder">
+      <created>1669675084762</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669675084762</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,6 +194,7 @@
     <MESSAGE value="workspace updates" />
     <MESSAGE value="Singleton" />
     <MESSAGE value="Alterações em Singleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alterações em Singleton" />
+    <MESSAGE value="Builder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Builder" />
   </component>
 </project>

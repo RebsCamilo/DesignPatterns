@@ -1,4 +1,4 @@
-package CreationalDesignPattern.AbstractFactory;
+package CreationalDesignPatterns.AbstractFactory;
 
 /*
 O Abstract Factory é um padrão de projeto criacional que permite que você

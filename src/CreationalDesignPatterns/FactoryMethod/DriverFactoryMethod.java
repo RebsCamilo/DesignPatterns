@@ -1,4 +1,4 @@
-package CreationalDesignPattern.FactoryMethod;
+package CreationalDesignPatterns.FactoryMethod;
 
 /*
 O Factory Method é um padrão criacional de projeto que fornece uma interface

@@ -1,4 +1,4 @@
-package CreationalDesignPattern.FactoryMethod;
+package CreationalDesignPatterns.FactoryMethod;
 
 public class Ship implements Transport{
 	

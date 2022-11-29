@@ -1,4 +1,4 @@
-package CreationalDesignPattern.Builder;
+package CreationalDesignPatterns.Builder;
 /*
 O Builder é um padrão de projeto criacional que permite a você construir
 objetos complexos passo a passo. O padrão permite que você produza diferentes

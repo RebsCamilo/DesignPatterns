@@ -1,4 +1,4 @@
-package CreationalDesignPattern.Builder;
+package CreationalDesignPatterns.Builder;
 
 public class Address {
 	

@@ -1,4 +1,4 @@
-package CreationalDesignPattern.FactoryMethod;
+package CreationalDesignPatterns.FactoryMethod;
 
 public class RoadLogistics extends Logistics {
 	
