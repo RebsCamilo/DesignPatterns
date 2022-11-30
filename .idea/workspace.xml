@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a347d69-8b6d-46c4-b08b-f8fa9c82c140" name="Changes" comment="Adapter">
-      <change afterPath="$PROJECT_DIR$/src/StructuralDesignPatterns/Decorator/ComCalda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralDesignPatterns/Decorator/ComGotasDeChocolate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralDesignPatterns/Decorator/DriverDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralDesignPatterns/Decorator/SorteveSimples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralDesignPatterns/Decorator/Sorvete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralDesignPatterns/Decorator/SorveteDecorator.java" afterDir="false" />
+    <list default="true" id="2a347d69-8b6d-46c4-b08b-f8fa9c82c140" name="Changes" comment="Decorator">
+      <change afterPath="$PROJECT_DIR$/src/BehavioralDesgnPatterns/ChainOfResponsibility/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralDesgnPatterns/ChainOfResponsibility/DriverChainOfResponsibility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralDesgnPatterns/ChainOfResponsibility/HandlePayments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralDesgnPatterns/ChainOfResponsibility/HandlePaymentsBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralDesgnPatterns/ChainOfResponsibility/verifyAccountBalanceHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralDesgnPatterns/ChainOfResponsibility/verifyNumberHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralDesgnPatterns/ChainOfResponsibility/verifyOwnerHandle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StructuralDesignPatterns/Adapter/DriverAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralDesignPatterns/Adapter/DriverAdapter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +56,20 @@
       <recent name="CreationalDesignPattern.FactoryMethod" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DriverDecorator">
+  <component name="RunManager" selected="Application.BehavioralDesgnPatterns.ChainOfResponsibility.DriverChainOfResponsibility">
+    <configuration name="BehavioralDesgnPatterns.ChainOfResponsibility.DriverChainOfResponsibility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BehavioralDesgnPatterns.ChainOfResponsibility.DriverChainOfResponsibility" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BehavioralDesgnPatterns.ChainOfResponsibility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CreationalDesignPatterns.Singleton.DriverSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CreationalDesignPatterns.Singleton.DriverSingleton" />
       <module name="DesignPatterns" />
@@ -74,19 +89,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="StructuralDesignPatterns.Adapter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DriverBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CreationalDesignPatterns.Builder.DriverBuilder" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CreationalDesignPatterns.Builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,6 +124,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BehavioralDesgnPatterns.ChainOfResponsibility.DriverChainOfResponsibility" />
         <item itemvalue="Application.DriverDecorator" />
         <item itemvalue="Application.DriverAdapter" />
         <item itemvalue="Application.CreationalDesignPatterns.Singleton.DriverSingleton" />
@@ -193,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669734127312</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Decorator">
+      <created>1669755556975</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669755556975</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,6 +225,7 @@
     <MESSAGE value="Builder" />
     <MESSAGE value="Rename Package CreationalDesignPatterns" />
     <MESSAGE value="Adapter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adapter" />
+    <MESSAGE value="Decorator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Decorator" />
   </component>
 </project>

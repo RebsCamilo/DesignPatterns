@@ -8,7 +8,7 @@ interface para este segundo objeto.
 
 public class DriverAdapter {
 	
-	public static void main(String args[]){
+	public static void main(String[] args){
 		CreditCard targetInterface = new BankCustomerAdapter();
 		targetInterface.giveBankDetails();
 		System.out.print(targetInterface.getCreditCard());
