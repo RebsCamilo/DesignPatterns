@@ -31,7 +31,7 @@ public class DriverChainOfResponsibility {
 	}
 	
 	public static boolean veriryAccount(Account account, HandlePayments handlePayments) {
-		if (handlePayments.handlePaymentsBase(account) == null) {
+		if (handlePayments.handlePaymentsBase(account) == null) { //verify if handlePaymentsBase returns null
 			return Boolean.TRUE;
 		}
 		return Boolean.FALSE;
