@@ -5,4 +5,5 @@ package BehavioralDesgnPatterns.ChainOfResponsibility;
 public interface HandlePayments {
 	public void setNextHandle(HandlePayments tratador);
 	public Boolean handlePaymentsBase(Account request);
+	
 }

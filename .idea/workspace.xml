@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a347d69-8b6d-46c4-b08b-f8fa9c82c140" name="Changes" comment="Decorator">
-      <change afterPath="$PROJECT_DIR$/src/BehavioralDesgnPatterns/ChainOfResponsibility/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralDesgnPatterns/ChainOfResponsibility/DriverChainOfResponsibility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralDesgnPatterns/ChainOfResponsibility/HandlePayments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralDesgnPatterns/ChainOfResponsibility/HandlePaymentsBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralDesgnPatterns/ChainOfResponsibility/verifyAccountBalanceHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralDesgnPatterns/ChainOfResponsibility/verifyNumberHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralDesgnPatterns/ChainOfResponsibility/verifyOwnerHandle.java" afterDir="false" />
+    <list default="true" id="2a347d69-8b6d-46c4-b08b-f8fa9c82c140" name="Changes" comment="Trying to implements Chain of Responsibility">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StructuralDesignPatterns/Adapter/DriverAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralDesignPatterns/Adapter/DriverAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BehavioralDesgnPatterns/ChainOfResponsibility/DriverChainOfResponsibility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesgnPatterns/ChainOfResponsibility/DriverChainOfResponsibility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BehavioralDesgnPatterns/ChainOfResponsibility/HandlePayments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesgnPatterns/ChainOfResponsibility/HandlePayments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BehavioralDesgnPatterns/ChainOfResponsibility/HandlePaymentsBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesgnPatterns/ChainOfResponsibility/HandlePaymentsBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669755556975</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Trying to implements Chain of Responsibility">
+      <created>1669844897639</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669844897639</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,6 +228,7 @@
     <MESSAGE value="Rename Package CreationalDesignPatterns" />
     <MESSAGE value="Adapter" />
     <MESSAGE value="Decorator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Decorator" />
+    <MESSAGE value="Trying to implements Chain of Responsibility" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trying to implements Chain of Responsibility" />
   </component>
 </project>

@@ -4,6 +4,10 @@ package BehavioralDesgnPatterns.ChainOfResponsibility;
 public abstract class HandlePaymentsBase implements HandlePayments {
 	private HandlePayments nextHandle;
 	
+	public HandlePayments getNextHandle() {
+		return nextHandle;
+	}
+	
 	@Override
 	public void setNextHandle(HandlePayments tratador) {
 		if (nextHandle == null) {
@@ -15,11 +19,12 @@ public abstract class HandlePaymentsBase implements HandlePayments {
 	
 	@Override
 	public Boolean handlePaymentsBase(Account account) {
-		executeConcreteHandle(account);
-//		Boolean retorno = executeConcreteHandle(account);
-//		System.out.println(retorno);
-		if (nextHandle != null) {
+		Boolean verify = this.executeConcreteHandle(account);
+		if (nextHandle != null && verify) {
 			return nextHandle.handlePaymentsBase(account);
+		}
+		if (!verify) {
+			return Boolean.FALSE;
 		}
 		return null;
 	}

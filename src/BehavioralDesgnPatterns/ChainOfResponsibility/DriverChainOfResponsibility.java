@@ -12,33 +12,43 @@ public class DriverChainOfResponsibility {
 	public static void main(String[] args) {
 		
 		Account account = new Account(123, "Ana", 0.0);
+		Account accountNumberError = new Account(-123, "Ana", 0.0);
 		Account accountBalanceError = new Account(123, "Ana", 10.0);
 		
-		System.out.println("Trying to close an account");
-		handlePayments(account);
-		
-		
-//	 Tratador cat = new CatTratador();
-//	 Tratador squirk = new SquirkTratador();
-//	 Account client = new Account();
-
-//	 cat.setNext(squirk);
-//
-//	System.out.println("Chain cat > squirk");
-//	client.askWhichFood(cat);
-//
-//	System.out.println("Chain squirk");
-//	client.askWhichFood();
-		
-//		Tratador t = tratamentoCompleto();
-//		System.out.println(t.trata("fish"));
+		System.out.println("Trying to close account:");
+		if (veriryAccount(account, handlePayments())) {
+			System.out.println("Account closed!");
+		} else {
+			System.out.println("Account can't be closed");
+		}
+		System.out.println();
+		System.out.println("Trying to close accountBalanceError:");
+		if (veriryAccount(accountBalanceError, handlePayments())) {
+			System.out.println("Account closed!");
+		} else {
+			System.out.println("Account can't be closed");
+		}
+		System.out.println();
+		System.out.println("Trying to close accountNumberError:");
+		if (veriryAccount(accountNumberError, handlePayments())) {
+			System.out.println("Account closed!");
+		} else {
+			System.out.println("Account can't be closed");
+		}
 	}
 	
-	public static HandlePayments handlePayments(Account account) {
+	public static HandlePayments handlePayments() {
 		HandlePayments handlePayments = new verifyNumberHandle();
 		handlePayments.setNextHandle(new verifyOwnerHandle());
 		handlePayments.setNextHandle(new verifyAccountBalanceHandle());
 		return handlePayments;
+	}
+	
+	public static boolean veriryAccount(Account account, HandlePayments handlePayments) {
+		if (handlePayments.handlePaymentsBase(account) == null) {
+			return Boolean.TRUE;
+		}
+		return Boolean.FALSE;
 	}
 	
 }
