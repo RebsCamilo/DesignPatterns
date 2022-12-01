@@ -16,28 +16,14 @@ public class DriverChainOfResponsibility {
 		Account accountBalanceError = new Account(123, "Ana", 10.0);
 		
 		System.out.println("Trying to close account:");
-		if (veriryAccount(account, handlePayments())) {
-			System.out.println("Account closed!");
-		} else {
-			System.out.println("Account can't be closed");
-		}
-		System.out.println();
+		closeAccount(account);
 		System.out.println("Trying to close accountBalanceError:");
-		if (veriryAccount(accountBalanceError, handlePayments())) {
-			System.out.println("Account closed!");
-		} else {
-			System.out.println("Account can't be closed");
-		}
-		System.out.println();
+		closeAccount(accountBalanceError);
 		System.out.println("Trying to close accountNumberError:");
-		if (veriryAccount(accountNumberError, handlePayments())) {
-			System.out.println("Account closed!");
-		} else {
-			System.out.println("Account can't be closed");
-		}
+		closeAccount(accountNumberError);
 	}
 	
-	public static HandlePayments handlePayments() {
+	public static HandlePayments chainOfHandlesPayments() {
 		HandlePayments handlePayments = new verifyNumberHandle();
 		handlePayments.setNextHandle(new verifyOwnerHandle());
 		handlePayments.setNextHandle(new verifyAccountBalanceHandle());
@@ -49,6 +35,14 @@ public class DriverChainOfResponsibility {
 			return Boolean.TRUE;
 		}
 		return Boolean.FALSE;
+	}
+	
+	public static void closeAccount(Account account) {
+		if (veriryAccount(account, chainOfHandlesPayments())) {
+			System.out.println("Account closed!\n");
+		} else {
+			System.out.println("Account can't be closed\n");
+		}
 	}
 	
 }
