@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a347d69-8b6d-46c4-b08b-f8fa9c82c140" name="Changes" comment="Chain of Responsibility main fixes">
-      <change afterPath="$PROJECT_DIR$/src/BehavioralDesgnPatterns/Observer/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralDesgnPatterns/Observer/DriverObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralDesgnPatterns/Observer/Investor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralDesgnPatterns/Observer/Observable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralDesgnPatterns/Observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralDesgnPatterns/Observer/Quotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralDesgnPatterns/Observer/QuoteServer.java" afterDir="false" />
+    <list default="true" id="2a347d69-8b6d-46c4-b08b-f8fa9c82c140" name="Changes" comment="Observer">
+      <change afterPath="$PROJECT_DIR$/src/BehavioralDesgnPatterns/Strategy/Cash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralDesgnPatterns/Strategy/CreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralDesgnPatterns/Strategy/DebitCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralDesgnPatterns/Strategy/DriverStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralDesgnPatterns/Strategy/PayStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BehavioralDesgnPatterns/ChainOfResponsibility/DriverChainOfResponsibility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesgnPatterns/ChainOfResponsibility/DriverChainOfResponsibility.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +57,7 @@
       <recent name="CreationalDesignPattern.FactoryMethod" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BehavioralDesgnPatterns.Observer.DriverObserver">
+  <component name="RunManager" selected="Application.DriverStrategy">
     <configuration name="BehavioralDesgnPatterns.ChainOfResponsibility.DriverChainOfResponsibility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BehavioralDesgnPatterns.ChainOfResponsibility.DriverChainOfResponsibility" />
       <module name="DesignPatterns" />
@@ -113,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DriverObserver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BehavioralDesgnPatterns.Observer.DriverObserver" />
+    <configuration name="DriverStrategy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BehavioralDesgnPatterns.Strategy.DriverStrategy" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BehavioralDesgnPatterns.Observer.*" />
+          <option name="PATTERN" value="BehavioralDesgnPatterns.Strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,7 +125,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BehavioralDesgnPatterns.Observer.DriverObserver" />
+        <item itemvalue="Application.DriverStrategy" />
         <item itemvalue="Application.BehavioralDesgnPatterns.ChainOfResponsibility.DriverChainOfResponsibility" />
         <item itemvalue="Application.DriverDecorator" />
         <item itemvalue="Application.DriverAdapter" />
@@ -229,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669915956371</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Observer">
+      <created>1669930126193</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1669930126193</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -255,6 +259,7 @@
     <MESSAGE value="Trying to implements Chain of Responsibility" />
     <MESSAGE value="Chain of Responsibility" />
     <MESSAGE value="Chain of Responsibility main fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chain of Responsibility main fixes" />
+    <MESSAGE value="Observer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Observer" />
   </component>
 </project>
